@@ -1,4 +1,4 @@
-# class 1\n blabla
+# class 1
 Fonction pour afficher si un mot entre est un palindrome.
 Le mot est enregistré 'en dur' dans la variable  <mot>.
 <i> et <j> sont les indexes des char que l'on compare.
