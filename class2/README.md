@@ -1,1 +1,1 @@
-# class 2\n blabla
+# class 2
