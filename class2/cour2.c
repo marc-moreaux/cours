@@ -4,6 +4,15 @@
 #include <string.h>
 
 
+// *****************************************************
+// *** 
+// *** Exercice: ecrire 2 fonctions. 
+// *** => La 1ere qui retourne la parite d'un nombre
+// *** => La 2ieme qui retourne la suite de fibonacci après <iters> iterations
+// *** 
+// *****************************************************
+
+
 int parite(int);
 int fibonacci(int,int,int iters);
 
