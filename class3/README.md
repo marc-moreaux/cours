@@ -1,1 +1,1 @@
-# class 3\n blabla
+# class 3

@@ -1,1 +1,1 @@
-# class 5\n blabla
+# class 5
