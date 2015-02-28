@@ -21,6 +21,8 @@ void tab_swap(int* tab,int tab_size, int idx1, int idx2); 	// Swap 2 valeurs du 
 // Bien evidemment, le programme implemente les fonctions si dessus.
 int main(){
 
+	printf("%d",(int)sizeof(int*));
+
 	// ***********************************
 	// *** Déclaration de variables
 	// ***********************************
