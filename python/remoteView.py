@@ -12,7 +12,7 @@ import pickle
 m = PyMouse()
 k = PyKeyboard()
 def send(data):
-    s.sendall(pickle.dumps(data))
+    s.sendall(bytes(data,'UTF-8'))
 
 
 class Application(tk.Frame):
@@ -48,21 +48,24 @@ class Application(tk.Frame):
 
 
     def do_copy(self):
-        send([['alt','tab'],['ctrl','c']])
+        send("[['alt','tab'],['ctrl','c'],['alt','tab']]")
         
     def do_paste(self):
-        send([['alt','tab'],['ctrl','v']])
+        send("[['alt','tab'],['ctrl','v'],['alt','tab']]")
         
     def do_undo(self):
-        send([['alt','tab'],['ctrl','z']])
+        send("[['alt','tab'],['ctrl','z'],['alt','tab']]")
 
     def do_redo(self):
-        send([['alt','tab'],['ctrl','y']])
+        send("[['alt','tab'],['ctrl','y'],['alt','tab']]")
+
+    def do_left(self):
+        send("[['up']]")
 
 
 # Allocate a socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(('127.0.0.1', 64698))
+s.connect(('127.0.0.1', 64696))
 
 root = tk.Tk()
 app = Application(master=root)
