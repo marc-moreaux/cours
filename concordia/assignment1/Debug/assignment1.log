@@ -1,0 +1,31 @@
+﻿La génération a démarré 12/10/2011 14:36:21.
+     1>Projet "D:\moreaux\mes documents2\ECOLE\informatique\assignment1\assignment1.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Debug\assignment1.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt exercice2.cpp
+         exercice2.cpp
+       ManifestResourceCompile:
+         Toutes les sorties sont à jour.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\moreaux\mes documents2\ECOLE\informatique\assignment1\Debug\assignment1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\assignment1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\moreaux\mes documents2\ECOLE\informatique\assignment1\Debug\assignment1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\moreaux\mes documents2\ECOLE\informatique\assignment1\Debug\assignment1.lib" /MACHINE:X86 Debug\assignment1.exe.embed.manifest.res
+         Debug\assignment1.obj
+         Debug\Card.obj
+         Debug\exercice1.obj
+         Debug\exercice2.obj
+         Debug\exercice3.obj
+         Debug\stdafx.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\assignment1.exe.embed.manifest" /manifest Debug\assignment1.exe.intermediate.manifest
+         Toutes les sorties sont à jour.
+       LinkEmbedManifest:
+         Toutes les sorties sont à jour.
+         assignment1.vcxproj -> D:\moreaux\mes documents2\ECOLE\informatique\assignment1\Debug\assignment1.exe
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug\assignment1.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\assignment1.lastbuildstate".
+     1>Génération du projet "D:\moreaux\mes documents2\ECOLE\informatique\assignment1\assignment1.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:04.61

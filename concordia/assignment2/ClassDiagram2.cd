@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Customer">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAQAAAAQAAAAABIAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Date">
+    <Position X="9.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAkAACAIAAAAAQAAAAEQAAAAAQAAgABCAAAAAQAQAA=</HashCode>
+      <FileName>Date.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoomReservation">
+    <Position X="5.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAAAAAIAIiAgAACQCAIAAACAAKAAAAABAAAAA=</HashCode>
+      <FileName>RoomReservation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Booking">
+    <Position X="2.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAQAAAAAAIAAIACAAAAgAJAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Booking.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookingManager">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAAAAAAAIAEAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>BookingManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
