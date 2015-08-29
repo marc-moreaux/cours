@@ -38,6 +38,9 @@
 	 
 	  return 0;
 	}
+
+#elif _WIN32
+	#include <conio.h>
 #endif
 
 
